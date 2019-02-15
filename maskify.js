@@ -9,7 +9,7 @@ function maskify(string) {
 		}
 		for (var j = arr.length-4; j < arr.length; j++) {
 			//return the last 4 elements of the array'
-			var name = arr[i]
+			var name = arr[j];
 			newArr.push(name);
 		}
 		return newArr.join(",");
