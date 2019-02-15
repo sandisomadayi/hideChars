@@ -12,11 +12,11 @@ function maskify(string) {
 			var name = arr[i]
 			newArr.push(name);
 		}
+		return newArr.join(",");
 	}
 	else {
 		return string;
 	}
-	return newArr.join(",");
 }
 //assert.equal(maskify("sandiso"), "###diso")
 console.log(maskify("sandiso")); //should return ###diso
