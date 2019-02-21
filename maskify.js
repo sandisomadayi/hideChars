@@ -5,7 +5,7 @@ function maskify(string) {
 		for (var i = 0; arr.length-4; i++) {
 			arr[i] = "#";
 		}
-		return arr.join(", ");
+		return arr.join("");
 	}
 	else {
 		return string;
