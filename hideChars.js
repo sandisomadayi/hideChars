@@ -1,4 +1,4 @@
-function maskify(string) {
+function hideChars(string) {
 	var arr = string.split("");
 	var newArr = [];
 	if (arr.length > 4) {
@@ -11,5 +11,5 @@ function maskify(string) {
 		return string;
 	}
 }
-//assert.equal(maskify("sandiso"), "###diso")
-console.log(maskify("sandiso")); //should return ###diso
+//assert.equal(hideChars("sandiso"), "###diso")
+console.log(hideChars("sandiso")); //should return ###diso
