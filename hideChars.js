@@ -11,5 +11,5 @@ function hideChars(string) {
 		return string;
 	}
 }
-//assert.equal(hideChars("sandiso"), "###diso")
-console.log(hideChars("sandiso")); //should return ###diso
+assert.equal(hideChars("sandiso"), "###diso");
+assert.equal(hideChars("diso"), "diso");
